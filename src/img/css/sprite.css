@@ -1,0 +1,29 @@
+.icon {
+    font-size: 10px;
+}
+
+.icon:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../svg/sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 40.6847em 9.3em;
+}
+
+.no-svg .icon:before {
+    background-image: url("../svg/sprite.png");
+}
+
+
+
+  .icon.betofrenia-logo:before {
+      background-position: 0em 0em;
+      width: 40.6847em;
+      height: 9.2688em;
+  }
+
+
+
+
+
